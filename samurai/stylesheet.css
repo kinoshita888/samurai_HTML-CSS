@@ -34,7 +34,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-
 /* -------------------- footer -------------------- */
 #footer {
 	clear: both;
@@ -72,7 +71,7 @@ body {
 }
 
 #nav ul li a:hover {
-	   filter: drop-shadow(10px 10px 10px black);
+	filter: drop-shadow(10px 10px 10px black);
 }
 
 /* -------------------- container -------------------- */
@@ -123,14 +122,15 @@ body {
 	width: 40%;
 	height: auto;
 }
+
 /* -------------------- clearfix -------------------- */
 .clearfix {
 	zoom: 1;
 }
 .clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
+	content: ""; 
+	display: block; 
+	clear: both;
 }
 
 /* -------------------- side -------------------- */
